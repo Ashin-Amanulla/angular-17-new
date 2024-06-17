@@ -1,0 +1,8 @@
+<div class="counter">
+    <h1>Counter App with Signals</h1>
+    <p>Current Count: {{ counterService.count() }}</p>
+    <my-counter-button (action)="counterService.increment()">Increment</my-counter-button>
+    <my-counter-button (action)="counterService.decrement()">Decrement</my-counter-button>
+    <my-counter-button (action)="counterService.reset()">Reset</my-counter-button>
+  </div>
+  
